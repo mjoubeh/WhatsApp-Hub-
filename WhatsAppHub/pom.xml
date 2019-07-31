@@ -12,7 +12,7 @@
 	<groupId>com.ig.whatsapp.hub</groupId>
 	<artifactId>whatsapphub</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<!-- <packaging>war</packaging> -->
+	<packaging>jar</packaging>
 	<name>whatsapphub</name>
 	<description>Whatsapp hub project</description>
 
@@ -21,7 +21,9 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+			<artifactId>
+				spring-boot-starter-web
+			</artifactId>
 		</dependency>
 
 		<dependency>
