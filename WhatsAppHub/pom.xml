@@ -71,17 +71,17 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<executions>
-				<execution>
-					<goals>
-						<goal>repackage</goal>
-					</goals>
-					<configuration>
-						<mainClass>com.stackify.Application</mainClass>
-						<outputDirectory>${project.basedir}/docker</outputDirectory>
-					</configuration>
-				</execution>
-			</executions>
+<!-- 			<executions> -->
+<!-- 				<execution> -->
+<!-- 					<goals> -->
+<!-- 						<goal>repackage</goal> -->
+<!-- 					</goals> -->
+<!-- 					<configuration> -->
+<!-- 						<mainClass>com.stackify.Application</mainClass> -->
+<!-- 						<outputDirectory>${project.basedir}/docker</outputDirectory> -->
+<!-- 					</configuration> -->
+<!-- 				</execution> -->
+<!-- 			</executions> -->
 		</plugins>
 	</build>
 
